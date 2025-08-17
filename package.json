@@ -1,0 +1,24 @@
+{
+  "name": "projeto-qrcode",
+  "version": "1.0.0",
+  "description": "Projeto de geração de QR Code com Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "qrcode",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "DIO",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^12.9.2",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
